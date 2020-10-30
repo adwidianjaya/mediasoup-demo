@@ -1,5 +1,6 @@
 node_modules/
 
+/app/public/
 /server/public/
 /server/mediasoup_valgrind_*
 

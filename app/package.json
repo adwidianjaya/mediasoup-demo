@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint -c .eslintrc.js --ext .js,.jsx gulpfile.js lib",
     "start": "gulp live",
-    "build": "gulp dist"
+    "build": "gulp dist",
+    "serve": "serve -l 3000 ./public"
   },
   "dependencies": {
     "@babel/runtime": "^7.8.4",
